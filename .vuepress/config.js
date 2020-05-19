@@ -3,13 +3,15 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Local', link: '/local/' },
+      { text: 'Programming', link: '/programming/' },
       { text: 'Server', link: '/server/' },
       { text: 'S3 Hosting', link: '/s3-hosting/' }
     ],
     sidebar: {
       '/local/': [
-      	['react/', 'React']
+      	['react/', 'React'],
+        ['php/', 'PHP'],
+        ['php/symfony/', 'Symfony']
       ],
       '/server/': [
       	['mysql/', 'MySQL'],

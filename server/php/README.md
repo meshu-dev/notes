@@ -1,8 +1,10 @@
-# Upgrade PHP 7.4 - (Ubuntu server)
+# PHP 7.4
 
 [Digital Ocean - Upgrade Guide](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04)
 
-## Steps
+## Upgrade to PHP 7.4
+
+### Ubuntu server
 Install repository for PHP 7.4...
 ```
 sudo add-apt-repository ppa:ondrej/php
