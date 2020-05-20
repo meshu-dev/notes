@@ -1,4 +1,4 @@
-# PHP 7.4
+# PHP
 
 [Digital Ocean - Upgrade Guide](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04)
 

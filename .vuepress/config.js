@@ -5,29 +5,39 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Programming', link: '/programming/' },
       { text: 'Server', link: '/server/' },
-      { text: 'S3 Hosting', link: '/s3-hosting/' }
+      { text: 'Misc', link: '/misc/' }
     ],
     sidebar: {
-      '/local/': [
-      	['react/', 'React'],
-        ['php/', 'PHP'],
-        ['php/symfony/', 'Symfony']
+      '/programming/': [
+        ['git/', 'Git'],
+        {
+          title: 'JavaScript',
+          children: [
+            ['javascript/', 'VanillaJS'],
+            ['javascript/react/', 'React']
+          ]
+        },
+        {
+          title: 'PHP',
+          link: '/php',
+          children: [
+            ['php/symfony/', 'Symfony'],
+            ['php/api-platform/', 'API Platform']
+          ]
+        }
       ],
       '/server/': [
+        ['dotnetcore/', 'Dot Net Core'],
+        ['jenkins/', 'Jenkins'],
       	['mysql/', 'MySQL'],
-        ['php/', 'PHP 7.4'],
-        ['nodejs/', 'NodeJS 12'],
-        ['jenkins/', 'Jenkins']
+        ['nodejs/', 'NodeJS'],
+        ['php/', 'PHP'],
+        ['sql-server/', 'SQL Server'],
+        ['ssh/', 'SSH'],
+        ['ssl/', 'SSL']
       ],
-      '/s3-hosting/': [
-        '',
-        //'three',
-        //'four'
-      ],
-      '/': [
-        '',
-        //'contact',
-        //'about'
+      '/misc/': [
+        ['jwt/', 'JWT']
       ]
     }
   }
