@@ -18,3 +18,17 @@ ssl on;
 ssl_certificate /etc/ssl/certs/certificate.crt;
 ssl_certificate_key /etc/ssl/certs/private.key;
 ```
+
+### Bundle setup
+
+In nginx you cannot set certificate crt and ca bundle as the 'ssl_certificate' command can only be used once therefore crt and ca bundle needs to be combined to a single file.
+
+Run following command to combine both files to a new file.
+
+```
+cat certificate.crt ca_bundle.crt >> combined_certs.crt
+```
+
+Reference: [Github page showing crt/ca bundle](https://gist.github.com/singhabhinav/132b8196abac026b43fa)
+
+Github webhook validation fix ---> Combine certificates - Also add in break in between certs

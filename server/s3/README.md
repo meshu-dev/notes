@@ -31,3 +31,42 @@ Links on guides to setting up static website hosting on AWS S3.
 - [React site S3 guide](https://www.newline.co/fullstack-react/articles/deploying-a-react-app-to-s3)
 
 - [React app deploy to cloudfront and s3](https://medium.com/@wolovim/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af)
+
+## S3Cmd
+
+Tool used to manage files in AWS S3 in linux.
+
+### Install
+
+Add key.
+
+```
+wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add -
+```
+
+Add entry to source list.
+
+```
+sudo wget -O/etc/apt/sources.list.d/s3tools.list http://s3tools.org/repo/deb-all/stable/s3tools.list
+```
+
+Update ubuntu.
+
+```
+sudo apt-get update
+```
+
+Install s3cmd.
+
+```
+sudo apt-get install -y s3cmd
+```
+
+### Set AWS access keys
+
+Get AWS access and secret keys at hand and run the following command in order to set those keys to the s3cmd config.
+
+```
+s3cmd --configure
+```
+

@@ -23,8 +23,18 @@ sudo apt-get install php7.4-mysql
 sudo apt-get install php7.4-xml
 sudo apt-get install php7.4-mbstring
 sudo apt-get install php7.4-json
+sudo apt-get install php7.4-mongodb
+sudo apt-get install php7.4-zip
 ```
 Install PHP 7.4 FPM
 ```
 sudo apt-get install php7.4-fpm
+```
+
+## PHP-FPM
+
+To restart php-fpm run the following.
+
+```
+sudo systemctl restart php7.4-fpm
 ```

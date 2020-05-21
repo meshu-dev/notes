@@ -13,28 +13,34 @@ module.exports = {
         {
           title: 'JavaScript',
           children: [
-            ['javascript/', 'VanillaJS'],
-            ['javascript/react/', 'React']
+            ['javascript/angular/', 'Angular'],
+            ['javascript/react/', 'React'],
+            ['javascript/', 'VanillaJS']
           ]
         },
         {
           title: 'PHP',
           link: '/php',
           children: [
-            ['php/symfony/', 'Symfony'],
-            ['php/api-platform/', 'API Platform']
+            ['php/api-platform/', 'API Platform'],
+            ['php/laravel/', 'Laravel'],
+            ['php/symfony/', 'Symfony']
           ]
         }
       ],
       '/server/': [
         ['dotnetcore/', 'Dot Net Core'],
         ['jenkins/', 'Jenkins'],
+        ['mongodb/', 'MongoDB'],
       	['mysql/', 'MySQL'],
+        ['nginx/', 'Nginx'],
         ['nodejs/', 'NodeJS'],
         ['php/', 'PHP'],
+        ['pm2/', 'PM2'],
         ['sql-server/', 'SQL Server'],
         ['ssh/', 'SSH'],
-        ['ssl/', 'SSL']
+        ['ssl/', 'SSL'],
+        ['systemd/', 'Systemd']
       ],
       '/misc/': [
         ['jwt/', 'JWT']
