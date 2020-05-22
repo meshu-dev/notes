@@ -28,6 +28,8 @@ You only need to use the following commands to work with vuepress.
 
 Run vuepress locally.
 
+Website should be available at [http://localhost:8080](http://localhost:8080).
+
 ```
 vuepress dev
 ```
@@ -49,3 +51,9 @@ After checking out some online markdown editors I've choosen Stack Edit as it sh
 Guide from the official markdown website on how to use the basic markdown syntax for creating pages with this app.
 
 [Markdown \- Basic Syntax](https://www.markdownguide.org/basic-syntax)
+
+### References
+
+The below link provides a vast number of links to resources related to Vuepress such as plugins, themes and guides.
+
+[Awesome Vuepress](https://github.com/vuepressjs/awesome-vuepress)

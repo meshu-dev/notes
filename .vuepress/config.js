@@ -1,8 +1,10 @@
 // .vuepress/config.js
 module.exports = {
+  title: 'Dev Notes',
+  description: 'Description of dev notes',
+  base: '/',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'Development', link: '/development/' },
       { text: 'Server', link: '/server/' },
       { text: 'Misc', link: '/misc/' }
@@ -45,6 +47,8 @@ module.exports = {
       '/misc/': [
         ['jwt/', 'JWT']
       ]
-    }
+    },
+    editLinks: true,
+    editLinkText: 'Help us improve this page!'
   }
 }
