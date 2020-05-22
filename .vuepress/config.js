@@ -8,7 +8,7 @@ module.exports = {
       { text: 'Misc', link: '/misc/' }
     ],
     sidebar: {
-      '/programming/': [
+      '/development/': [
         ['git/', 'Git'],
         {
           title: 'JavaScript',
