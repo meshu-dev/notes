@@ -13,3 +13,11 @@ When doing a git pull you will get an error when attempting to merge local repos
 ```
 git pull origin master --allow-unrelated-histories
 ```
+
+## Change url for origin
+
+To change an existing origin remote repository setup in a local repository.
+
+```
+git remote set-url origin [ssh git repo url]
+```
