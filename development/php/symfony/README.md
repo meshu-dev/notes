@@ -203,3 +203,39 @@ services:
 		bind:
 			$isDebug: '%kernel.debug%'
 ```
+
+---
+## Building an API
+
+- Install maker bundle which provides boilerplate for classes.
+
+```
+composer require maker --dev
+```
+
+- Install Doctrine pack to use ORM.
+  - Guide available at [Doctrine guide](https://symfony.com/doc/current/doctrine.html).
+
+```
+composer require orm
+```
+
+- Open up .env file and update the DATABASE_URL with database connection details.
+
+```
+vim .env
+```
+
+> DATABASE_URL=mysql://root:@localhost:3306/test?serverVersion=5.7
+
+- Create database defined in .env DATABASE_URL.
+
+```
+php bin/console doctrine:database:create
+```
+
+- Create entity class.
+
+```
+php bin/console make:entity
+```
