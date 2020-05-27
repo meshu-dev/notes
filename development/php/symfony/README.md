@@ -207,6 +207,8 @@ services:
 ---
 ## Building an API
 
+### Install packages
+
 - Install maker bundle which provides boilerplate for classes.
 
 ```
@@ -219,6 +221,20 @@ composer require maker --dev
 ```
 composer require orm
 ```
+
+- Install serializer pack as FOSRestBundle requires a serializer setup.
+
+```
+composer require symfony/serializer-pack
+```
+
+- Install FOSRestBundle 3 beta\([FOSRestBundle Github](https://github.com/FriendsOfSymfony/FOSRestBundle)\).
+
+```
+composer require friendsofsymfony/rest-bundle:3.0.0-beta2
+```
+
+### Config Doctrine
 
 - Open up .env file and update the DATABASE_URL with database connection details.
 
@@ -234,8 +250,31 @@ vim .env
 php bin/console doctrine:database:create
 ```
 
+### Param Fetcher
+
+Symfony validator is required when enabling and using param fetcher.
+
+```
+composer require symfony/validator
+```
+
+## Migrations
+
 - Create entity class.
 
 ```
 php bin/console make:entity
+```
+
+- Create migration file.
+  - Migragtions will check entities with database and automatically add CREATE TABLE or UPDATE TABLE SQL to migration.
+
+```
+./bin/console make:migration 
+```
+
+- Run migrations
+
+```
+./bin/console doctrine:migrations:migrate 
 ```

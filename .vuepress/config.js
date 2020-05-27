@@ -45,7 +45,16 @@ module.exports = {
         ['systemd/', 'Systemd']
       ],
       '/misc/': [
-        ['jwt/', 'JWT']
+        ['ddd/', 'DDD'],
+        ['jwt/', 'JWT'],
+        ['tdd/', 'TDD'],
+        {
+          title: 'Tutorials',
+          link: '/tutorials',
+          children: [
+            ['tutorials/svelte/', 'Svelte']
+          ]
+        }
       ]
     },
     editLinks: true,
