@@ -16,6 +16,7 @@ module.exports = {
           title: 'JavaScript',
           children: [
             ['javascript/angular/', 'Angular'],
+            ['javascript/nodejs/', 'Nodejs'],
             ['javascript/react/', 'React'],
             ['javascript/', 'VanillaJS']
           ]
@@ -48,6 +49,7 @@ module.exports = {
         ['ddd/', 'DDD'],
         ['jwt/', 'JWT'],
         ['tdd/', 'TDD'],
+        ['deno/', 'Deno'],
         {
           title: 'Tutorials',
           link: '/tutorials',
