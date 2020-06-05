@@ -26,6 +26,7 @@ module.exports = {
           link: '/php',
           children: [
             ['php/api-platform/', 'API Platform'],
+            ['php/codesniffer/', 'CodeSniffer'],
             ['php/laravel/', 'Laravel'],
             ['php/symfony/', 'Symfony']
           ]
