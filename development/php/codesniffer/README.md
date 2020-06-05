@@ -68,8 +68,8 @@ phpcs --config-set default_standard PSR2
 
 Command list for config file.
 
-(CS config Wiki page)[https://github.com/squizlabs/PHP_CodeSniffer/wiki/Configuration-Options#setting-the-default-coding-standard]
+[CS config Wiki page](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Configuration-Options#setting-the-default-coding-standard)
 
 ## Links
 
-(PSR-12 blog)[https://www.php-fig.org/blog/2019/09/new-blog-psr-12-approval]
+[PSR-12 blog](https://www.php-fig.org/blog/2019/09/new-blog-psr-12-approval)
