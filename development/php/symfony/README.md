@@ -278,3 +278,85 @@ php bin/console make:entity
 ```
 ./bin/console doctrine:migrations:migrate 
 ```
+
+## Fixtures
+
+### Install
+
+Run command below to install.
+
+```
+composer require --dev orm-fixtures
+```
+
+### Usage
+
+It's common to have a fixture class for each entity class.
+
+Create fixtures using maker bundle.
+
+```
+./bin/console make:fixtures
+```
+
+Run fixture files.
+
+```
+./bin/console doctrine:fixtures:load
+```
+
+### Faker
+
+To use generated test data use the faker package.
+
+To install run this command.
+
+```
+composer require fzaninotto/faker --dev
+```
+
+## Coding Standards
+
+Below link is a guide to documentating and structuring code.
+
+[Symfony coding standards](https://symfony.com/doc/current/contributing/code/standards.html).
+
+## PHP Unit
+
+### Install
+
+Install Symfony phpunit package.
+
+```
+composer require --dev symfony/phpunit-bridge
+```
+
+Install browser kit package to run tests on API endpoints.
+
+```
+composer require --dev symfony/browser-kit
+```
+
+### Usage
+
+Create PHP Unit test.
+
+```
+./bin/console make:unit-test
+```
+
+Run PHP Unit tests.
+
+```
+php bin/phpunit
+```
+
+Commands for run fixtures to prepare data for php unit tests.
+
+```
+./bin/console doctrine:schema:drop --force
+./bin/console doctrine:schema:
+./bin/console doctrine:fixtures:load
+```
+
+Reference: [Commands to drop and create DB](https://coderwall.com/p/staybw/workaround-for-1701-cannot-truncate-a-table-referenced-in-a-foreign-key-constraint-using-doctrine-fixtures-load-purge-with-truncate)

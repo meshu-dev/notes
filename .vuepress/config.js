@@ -27,6 +27,7 @@ module.exports = {
           children: [
             ['php/api-platform/', 'API Platform'],
             ['php/codesniffer/', 'CodeSniffer'],
+            ['php/coding-standards-fixer/', 'Coding Standards Fixer'],
             ['php/laravel/', 'Laravel'],
             ['php/symfony/', 'Symfony']
           ]

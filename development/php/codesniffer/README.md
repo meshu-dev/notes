@@ -30,6 +30,12 @@ Run codesniffer replacing [directory to sniff] with path to codebase.
 phpcs [directory to sniff]
 ```
 
+Run codesniffer with specific standard, replace [directory to sniff] with path to codebase.
+
+```
+phpcs --standard=PSR1 [directory to sniff]
+```
+
 Get a summary of errors and warnings, replace [directory to sniff] with path to codebase.
 
 ```
