@@ -18,6 +18,7 @@ module.exports = {
             ['javascript/angular/', 'Angular'],
             ['javascript/nodejs/', 'Nodejs'],
             ['javascript/react/', 'React'],
+            ['javascript/svelte/', 'Svelte'],
             ['javascript/', 'VanillaJS']
           ]
         },
@@ -49,6 +50,7 @@ module.exports = {
       ],
       '/misc/': [
         ['ddd/', 'DDD'],
+        ['graphql/', 'GraphQL'],
         ['jwt/', 'JWT'],
         ['tdd/', 'TDD'],
         ['deno/', 'Deno'],

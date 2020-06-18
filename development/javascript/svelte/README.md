@@ -28,3 +28,34 @@ npm run dev
 ```
 
 Go to local url shown, for me it was [http://localhost:5000](http://localhost:5000).
+
+## Sapper
+
+Official svelte framework
+
+### Setup app
+
+Create app.
+
+```
+npx degit "sveltejs/sapper-template#webpack" app
+```
+
+Install packages.
+
+```
+cd app
+npm install
+```
+
+Run app.
+
+```
+npm run dev
+```
+
+## Libraries
+
+- [Routify](https://routify.dev) - File system based routing
+
+- [Sapper](https://sapper.svelte.dev/) - Svelte JS framework
