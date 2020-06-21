@@ -68,3 +68,5 @@ npm run dev
 
 - [Svelte awesome resources](https://awesomeopensource.com/project/ryanatkn/awesome-svelte-resources)
 
+- [Svelte forms lib](https://svelte-forms-lib-sapper-docs.tjin.now.sh/introduction) - Svelte form validation library
+
