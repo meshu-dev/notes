@@ -95,3 +95,13 @@ KEYSTORE=/srv/jenkins/jenkins.jks
 PASSWORD=password
 JENKINS_ARGS="--webroot=/var/cache/$NAME/war --httpsPort=$HTTPS_PORT --httpsKeyStore=$KEYSTORE --httpsKeyStorePassword=$PASSWORD --httpPort=-1"
 ```
+
+### Triggering builds on new pipelines
+
+Found an issue (maybe normal behaviour) with builds when creating new pipelines.
+
+When the github webhook is called to Jenkins it won't trigger a build, it seems like the only fix for this is to do a manual build first and then any github webhook calls made after do trigger builds.
+
+- [Reference about same issue](https://issues.jenkins-ci.org/browse/JENKINS-40814)
+
+- Check logs to track github webhook requests at /log/all of jenkins website url.
