@@ -12,6 +12,7 @@ module.exports = {
     sidebar: {
       '/development/': [
         ['git/', 'Git'],
+        ['go/', 'Go'],
         {
           title: 'JavaScript',
           children: [

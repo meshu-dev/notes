@@ -105,3 +105,25 @@ When the github webhook is called to Jenkins it won't trigger a build, it seems 
 - [Reference about same issue](https://issues.jenkins-ci.org/browse/JENKINS-40814)
 
 - Check logs to track github webhook requests at /log/all of jenkins website url.
+
+
+## E-mail notifications
+
+Added guides and info on setting up e-mail notifications for builds as it took time to get it setup and working.
+
+- [Gmail setup guide 1](https://www.decodingdevops.com/configure-jenkins-email-notification-and-solved-not-working/)
+- [Gmail setup guide 2](https://medium.com/@gustavo.guss/jenkins-sending-email-on-post-build-938b236545d2)
+- [Gmail setup guide 3](https://medium.com/@pradeep.sg406/how-to-configure-email-notification-in-jenkins-227b58d3c017)
+- [Send e-mail - Groovy code example](https://gist.github.com/g0t4/747cd20e8563aefc3eac444166983142)
+
+## Fixing Gmail authentication
+
+Ran into issues trying to use a gmail account to send e-mails out, every build I ran wouldn't send an e-mail.
+
+- Make sure to enable debug messages in e-mail settings to see extra info in build console.
+
+Following guide helped authenticate Gmail account as whenever e-mails were sent the authentication failed.
+
+- [Gmail auth failure - Stackoverflow](https://stackoverflow.com/questions/25718290/jenkins-smtp-email-configuration-fails-verification)
+
+For testing purposes disable secure app access and use unlock captcha link to allow Linux server to login to Gmail to send e-mail.
