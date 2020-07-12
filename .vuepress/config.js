@@ -23,6 +23,7 @@ module.exports = {
             ['javascript/', 'VanillaJS']
           ]
         },
+        ['macos/', 'MacOS'],
         {
           title: 'PHP',
           link: '/php',
@@ -30,8 +31,11 @@ module.exports = {
             ['php/api-platform/', 'API Platform'],
             ['php/codesniffer/', 'CodeSniffer'],
             ['php/coding-standards-fixer/', 'Coding Standards Fixer'],
+            ['php/docblocks/', 'DocBlocks'],
             ['php/laravel/', 'Laravel'],
-            ['php/symfony/', 'Symfony']
+            ['php/slim/', 'Slim'],
+            ['php/symfony/', 'Symfony'],
+            ['php/versions/', 'Versions']
           ]
         }
       ],

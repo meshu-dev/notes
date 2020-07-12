@@ -43,3 +43,17 @@ brew cask install postico
 ```
 brew cask install psequel
 ```
+
+### Issues
+
+I ran into the following error when using the default 'postgres' database to create a new table.
+
+> role "postgres" does not exist
+
+To solve the issue I run the following query.
+
+```
+CREATE USER postgres SUPERUSER;
+```
+
+Reference: ()[https://stackoverflow.com/questions/15301826/psql-fatal-role-postgres-does-not-exist]
