@@ -56,3 +56,18 @@ Here are a list of features available with PHP 7+.
 - Throw exceptions inside of toString magic method
 - Serialize and Unserialize magic methods
 - strip_tags() can use array of tags
+
+## PHP 7 and PHP 5 comparison
+
+Found a few articles providing information on the differences.
+
+- [Cars Guide blog](https://engineering.carsguide.com.au/php-5-vs-php-7-d80191e8406b)
+- [Hidden brains blog](https://www.hiddenbrains.co.uk/blog/difference-between-php5-and-php7-and-upgrading-php-version.html)
+- [Best interview question blog](https://www.bestinterviewquestion.com/blog/what-is-the-difference-between-php5-and-php7)
+
+## PHP 5 End of Life
+
+Found articles on the end of security support for PHP 5.
+
+- [Digital Canvas blog](https://www.digitalcanvas.com/blog/php-56-end-of-life-guide)
+- [Wordfence blog](https://www.wordfence.com/blog/2018/10/php5-dangerous)

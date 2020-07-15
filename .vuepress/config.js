@@ -5,11 +5,15 @@ module.exports = {
   base: '/',
   themeConfig: {
     nav: [
+      { text: 'Design', link: '/design/' },
       { text: 'Development', link: '/development/' },
       { text: 'Server', link: '/server/' },
       { text: 'Misc', link: '/misc/' }
     ],
     sidebar: {
+      '/design/': [
+        ['solid/', 'SOLID']
+      ],
       '/development/': [
         ['git/', 'Git'],
         ['go/', 'Go'],
@@ -18,9 +22,11 @@ module.exports = {
           children: [
             ['javascript/angular/', 'Angular'],
             ['javascript/nodejs/', 'Nodejs'],
+            ['javascript/nuxtjs/', 'Nuxtjs'],
             ['javascript/react/', 'React'],
             ['javascript/svelte/', 'Svelte'],
-            ['javascript/', 'VanillaJS']
+            ['javascript/', 'VanillaJS'],
+            ['javascript/vuejs/', 'Vue.js']
           ]
         },
         ['macos/', 'MacOS'],
