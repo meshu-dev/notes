@@ -5,15 +5,11 @@ module.exports = {
   base: '/',
   themeConfig: {
     nav: [
-      { text: 'Design', link: '/design/' },
       { text: 'Development', link: '/development/' },
       { text: 'Server', link: '/server/' },
       { text: 'Misc', link: '/misc/' }
     ],
     sidebar: {
-      '/design/': [
-        ['solid/', 'SOLID']
-      ],
       '/development/': [
         ['git/', 'Git'],
         ['go/', 'Go'],
@@ -30,6 +26,7 @@ module.exports = {
           ]
         },
         ['macos/', 'MacOS'],
+        ['mysql/', 'MySQL'],
         {
           title: 'PHP',
           link: '/php',
@@ -60,11 +57,16 @@ module.exports = {
         ['systemd/', 'Systemd']
       ],
       '/misc/': [
+        ['api-gateway/', 'API Gateway'],
         ['ddd/', 'DDD'],
+        ['deno/', 'Deno'],
         ['graphql/', 'GraphQL'],
         ['jwt/', 'JWT'],
+        ['microservices/', 'Microservices'],
+        ['mvvm/', 'MVVM'],
+        ['sanctum/', 'Sanctum'],
+        ['solid/', 'SOLID'],
         ['tdd/', 'TDD'],
-        ['deno/', 'Deno'],
         {
           title: 'Tutorials',
           link: '/tutorials',
