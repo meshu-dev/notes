@@ -28,6 +28,10 @@ mysql_secure_installation
 
 ## Issues
 
+List of issues encountered and solutions to them.
+
+### SequelPro connection issue
+
 Connecting to SequelPro may show the following error.
 
 > Unable to connect to host 127.0.0.1, or the request timed out.
@@ -58,3 +62,15 @@ FLUSH PRIVILEGES;
 Now try logging in again through SequelPro and it should work.
 
 Reference: [Joeyklee github](https://gist.github.com/joeyklee/5ada6a254804c33dbebbca4161277836)
+
+### SequelPro DB error
+
+When accessing a DB the following error thrown contained the following text.
+
+> -[_NSInlineData isEqualToString:]: unrecognized selector sent to instance 0x60802d051c10
+
+The issue is that sequel pro throws an error with connecting to databases with MySQL 8.0.
+
+Solution: Install a test build (Sequel Pro Nightly) found on [test builds](https://sequelpro.com/test-builds) page.
+
+- Reference: [Github issue page](https://github.com/sequelpro/sequelpro/issues/2699)
