@@ -1,5 +1,11 @@
 # Versions
 
+## PHP 8
+
+Articles on features that will be available with PHP 8.
+
+- [PHP 8 improvements and new features blog](https://kinsta.com/blog/php-8/#php-8-improvements-and-new-features)
+
 ## PHP 7 Features
 
 Here are a list of features available with PHP 7+.

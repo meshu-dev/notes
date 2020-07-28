@@ -11,8 +11,15 @@ module.exports = {
     ],
     sidebar: {
       '/development/': [
+        ['brew/', 'Brew'],
         ['git/', 'Git'],
-        ['go/', 'Go'],
+        {
+          title: 'Go',
+          children: [
+            ['go/hello-world/', 'Hello World'],
+            ['go/commands/', 'Commands']
+          ]
+        },
         {
           title: 'JavaScript',
           children: [
@@ -23,6 +30,16 @@ module.exports = {
             ['javascript/svelte/', 'Svelte'],
             ['javascript/', 'VanillaJS'],
             ['javascript/vuejs/', 'Vue.js']
+          ]
+        },
+        {
+          title: 'Laravel',
+          link: '/laravel',
+          children: [
+            ['laravel/features/', 'Features'],
+            ['laravel/make/', 'Make'],
+            ['laravel/migrations/', 'Migrations'],
+            ['laravel/tinker/', 'Tinker']
           ]
         },
         ['macos/', 'MacOS'],
@@ -40,7 +57,8 @@ module.exports = {
             ['php/symfony/', 'Symfony'],
             ['php/versions/', 'Versions']
           ]
-        }
+        },
+        ['software/', 'Software']
       ],
       '/server/': [
         ['dotnetcore/', 'Dot Net Core'],
