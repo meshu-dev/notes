@@ -6,6 +6,12 @@ Can receive free SSL certificates that last for 3 months from the link below.
 
 [SSL for free](https://www.sslforfree.com)
 
+## Lets Encrypt
+
+Found a guide to a possible alternative for sslforfree as its no longer free.
+
+- [Lets Encrypt - Amazon guide](https://hackernoon.com/easy-lets-encrypt-certificates-on-aws-79387767830b)
+
 ## Nginx Https setup
 
 Open vhost file and add in the following fields with values changed to actual values.

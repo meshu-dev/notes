@@ -5,11 +5,17 @@ module.exports = {
   base: '/',
   themeConfig: {
     nav: [
+      { text: 'Design', link: '/design/' },
       { text: 'Development', link: '/development/' },
       { text: 'Server', link: '/server/' },
       { text: 'Misc', link: '/misc/' }
     ],
     sidebar: {
+      '/design/': [
+        ['design-patterns/', 'Design Patterns'],
+        ['design-principles/', 'Design Principles'],
+        ['git-workflows/', 'Git Workflows']
+      ],
       '/development/': [
         ['brew/', 'Brew'],
         ['git/', 'Git'],
@@ -39,6 +45,7 @@ module.exports = {
             ['laravel/features/', 'Features'],
             ['laravel/make/', 'Make'],
             ['laravel/migrations/', 'Migrations'],
+            ['laravel/setup/', 'Setup'],
             ['laravel/tinker/', 'Tinker']
           ]
         },
@@ -52,7 +59,6 @@ module.exports = {
             ['php/codesniffer/', 'CodeSniffer'],
             ['php/coding-standards-fixer/', 'Coding Standards Fixer'],
             ['php/docblocks/', 'DocBlocks'],
-            ['php/laravel/', 'Laravel'],
             ['php/slim/', 'Slim'],
             ['php/symfony/', 'Symfony'],
             ['php/versions/', 'Versions']
@@ -75,6 +81,7 @@ module.exports = {
         ['systemd/', 'Systemd']
       ],
       '/misc/': [
+        ['alphinejs/', 'Alphine.js'],
         ['api-gateway/', 'API Gateway'],
         ['ddd/', 'DDD'],
         ['deno/', 'Deno'],
