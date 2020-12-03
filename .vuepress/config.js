@@ -6,7 +6,10 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Design', link: '/design/' },
-      { text: 'Development', link: '/development/' },
+      { text: 'PHP', link: '/php/' },
+      { text: 'Javascript', link: '/javascript/' },
+      { text: 'Go', link: '/go/' },
+      { text: 'Local', link: '/local/' },
       { text: 'Server', link: '/server/' },
       { text: 'Misc', link: '/misc/' }
     ],
@@ -16,7 +19,43 @@ module.exports = {
         ['design-principles/', 'Design Principles'],
         ['git-workflows/', 'Git Workflows']
       ],
-      '/development/': [
+      '/php/': [
+        ['api-platform/', 'API Platform'],
+        ['codesniffer/', 'Codesniffer'],
+        ['coding-standards-fixer/', 'Coding Standards Fixer'],
+        ['docblocks/', 'DocBlocks'],
+        {
+          title: 'Laravel',
+          link: '/laravel',
+          children: [
+            ['laravel/controllers/', 'Controllers'],
+            ['laravel/factories/', 'Factories'],
+            ['laravel/features/', 'Features'],
+            ['laravel/make/', 'Make'],
+            ['laravel/migrations/', 'Migrations'],
+            ['laravel/misc/', 'Misc'],
+            ['laravel/setup/', 'Setup'],
+            ['laravel/tinker/', 'Tinker'],
+            ['laravel/vue/', 'Vue']
+          ]
+        },
+        ['slim/', 'Slim'],
+        ['symfony/', 'Symfony'],
+        ['versions/', 'Versions']
+      ],
+      '/javascript/': [
+        ['angular/', 'Angular'],
+        ['nodejs/', 'Nodejs'],
+        ['nuxtjs/', 'Nuxtjs'],
+        ['react/', 'React'],
+        ['svelte/', 'Svelte'],
+        ['vuejs/', 'Vue.js']
+      ],
+      '/go/': [
+        ['commands/', 'Commands'],
+        ['hello-world/', 'Hello World']
+      ],
+      '/local/': [
         ['brew/', 'Brew'],
         ['git/', 'Git'],
         {
@@ -26,44 +65,8 @@ module.exports = {
             ['go/commands/', 'Commands']
           ]
         },
-        {
-          title: 'JavaScript',
-          children: [
-            ['javascript/angular/', 'Angular'],
-            ['javascript/nodejs/', 'Nodejs'],
-            ['javascript/nuxtjs/', 'Nuxtjs'],
-            ['javascript/react/', 'React'],
-            ['javascript/svelte/', 'Svelte'],
-            ['javascript/', 'VanillaJS'],
-            ['javascript/vuejs/', 'Vue.js']
-          ]
-        },
-        {
-          title: 'Laravel',
-          link: '/laravel',
-          children: [
-            ['laravel/features/', 'Features'],
-            ['laravel/make/', 'Make'],
-            ['laravel/migrations/', 'Migrations'],
-            ['laravel/setup/', 'Setup'],
-            ['laravel/tinker/', 'Tinker']
-          ]
-        },
         ['macos/', 'MacOS'],
         ['mysql/', 'MySQL'],
-        {
-          title: 'PHP',
-          link: '/php',
-          children: [
-            ['php/api-platform/', 'API Platform'],
-            ['php/codesniffer/', 'CodeSniffer'],
-            ['php/coding-standards-fixer/', 'Coding Standards Fixer'],
-            ['php/docblocks/', 'DocBlocks'],
-            ['php/slim/', 'Slim'],
-            ['php/symfony/', 'Symfony'],
-            ['php/versions/', 'Versions']
-          ]
-        },
         ['software/', 'Software']
       ],
       '/server/': [
