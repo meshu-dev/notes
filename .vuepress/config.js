@@ -58,13 +58,6 @@ module.exports = {
       '/local/': [
         ['brew/', 'Brew'],
         ['git/', 'Git'],
-        {
-          title: 'Go',
-          children: [
-            ['go/hello-world/', 'Hello World'],
-            ['go/commands/', 'Commands']
-          ]
-        },
         ['macos/', 'MacOS'],
         ['mysql/', 'MySQL'],
         ['software/', 'Software']
