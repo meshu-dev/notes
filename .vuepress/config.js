@@ -6,9 +6,15 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Design', link: '/design/' },
-      { text: 'PHP', link: '/php/' },
-      { text: 'Javascript', link: '/javascript/' },
-      { text: 'Go', link: '/go/' },
+      {
+        text: 'Languages',
+        ariaLabel: 'Language Menu',
+        items: [
+          { text: 'PHP', link: '/php/' },
+          { text: 'Javascript', link: '/javascript/' },
+          { text: 'Go', link: '/go/' }
+        ]
+      },
       { text: 'Local', link: '/local/' },
       { text: 'Server', link: '/server/' },
       { text: 'Misc', link: '/misc/' }
