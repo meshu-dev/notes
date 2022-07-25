@@ -1,8 +1,35 @@
-// .vuepress/config.js
+const { defaultTheme } = require('vuepress')
+
 module.exports = {
   title: 'Dev Notes',
   description: 'Description of dev notes',
   base: '/',
+  theme: defaultTheme({
+    navbar: [
+      { text: 'Design', link: '/design/' },
+      /*
+      {
+        text: 'Languages',
+        ariaLabel: 'Language Menu',
+        items: [
+          { text: 'PHP', link: '/php/' },
+          { text: 'Javascript', link: '/javascript/' },
+          { text: 'Go', link: '/go/' }
+        ]
+      }, */
+      { text: 'Local', link: '/local/' },
+      { text: 'Server', link: '/server/' },
+      { text: 'Misc', link: '/misc/' }
+    ],
+    sidebar: {
+      '/design/': [
+        {
+          text: 'Design Patterns',
+          children: ['hhh/']
+        }
+      ]
+    }
+  }),
   themeConfig: {
     nav: [
       { text: 'Design', link: '/design/' },
