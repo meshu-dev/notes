@@ -10,16 +10,30 @@ At first I thought it was a requirement to prrogram in VueJS to generate documen
 
 Use the following commands to install npm and vuepress to run and manage pages for vuepress app.
 
-Install Node.js if npm isn't available (MacOS Install via brew).
+### Node Install
+
+#### Windows Install
+
+Install Node.js if npm isn't available (install via chocolately).
+
+```
+choco install nodejs
+```
+
+#### MacOS Install
+
+Install Node.js if npm isn't available (install via brew).
 
 ```
 brew install node
 ```
 
-Install vuepress via npm.
+### NPM Install
+
+After node use NPM to install vuepress via npm.
 
 ```
-npm install -g vuepress
+npm install -D vuepress@next
 ```
 
 ## Commands
@@ -31,13 +45,13 @@ Run vuepress locally.
 Website should be available at [http://localhost:8080](http://localhost:8080).
 
 ```
-vuepress dev
+npx vuepress dev
 ```
 
 Build static site files.
 
 ```
-vuepress build
+npx vuepress build
 ```
 
 ## Creating pages
