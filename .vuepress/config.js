@@ -3,7 +3,7 @@ const { defaultTheme } = require('vuepress')
 module.exports = {
   title: 'Dev Notes',
   description: 'Description of dev notes',
-  base: '/',
+  base: '/notes/',
   theme: defaultTheme({
     navbar: [
       { text: 'Design', link: '/design/' },
