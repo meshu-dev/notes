@@ -38,6 +38,12 @@ npm install -D vuepress@next
 
 ## Commands
 
+After cloning the repo you may need to run npm install if you can't run it locally.
+
+```
+npm install
+```
+
 You only need to use the following commands to work with vuepress.
 
 Run vuepress locally.

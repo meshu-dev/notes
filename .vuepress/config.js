@@ -63,6 +63,7 @@ module.exports = {
       ],
       '/local/': [
         { text: 'Brew', link: '/local/brew/' },
+        { text: 'Docker', link: '/local/docker/' },
         { text: 'Git', link: '/local/git/' },
         { text: 'MacOS', link: '/local/macos/' },
         { text: 'MySQL', link: '/local/mysql/' },
