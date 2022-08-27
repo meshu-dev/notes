@@ -72,7 +72,7 @@ Guide from the official markdown website on how to use the basic markdown syntax
 
 [Markdown \- Basic Syntax](https://www.markdownguide.org/basic-syntax)
 
-### References!!!
+### References
 
 The below link provides a vast number of links to resources related to Vuepress such as plugins, themes and guides.
 
