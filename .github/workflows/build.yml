@@ -10,4 +10,4 @@ jobs:
           node-version: '14'
       - run: npm ci
       - run: npm run build
-      - run: cp .vuepress/dist docs
+      - run: cp -r ./.vuepress/dist ./docs
