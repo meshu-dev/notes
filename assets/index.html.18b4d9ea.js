@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-7a2e4112","path":"/local/docker/","title":"Docker","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Install","slug":"install","children":[]}],"git":{"updatedTime":1661646171000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"local/docker/README.md"}');export{e as data};

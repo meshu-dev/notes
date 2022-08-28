@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-1483b610","path":"/misc/sanctum/","title":"Laravel Sanctum","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661646171000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"misc/sanctum/README.md"}');export{a as data};

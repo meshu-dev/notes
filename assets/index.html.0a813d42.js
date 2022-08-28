@@ -1,4 +1,0 @@
-import{_ as e,o as t,c as n,d as a}from"./app.3e1823c7.js";const i={},s=a(`<h1 id="misc" tabindex="-1"><a class="header-anchor" href="#misc" aria-hidden="true">#</a> Misc</h1><p>This section is used for anything that doesn&#39;t fall into the category of development or server.</p><p>At the moment I&#39;m using this section to add references to stuff I want to do more research on.</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>php artisan route:list
-php artisan make:mail ContactMe
-php artisan make:notification PaymentReceived
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4),r=[s];function o(c,d){return t(),n("div",null,r)}var m=e(i,[["render",o],["__file","index.html.vue"]]);export{m as default};

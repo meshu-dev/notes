@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-619d499e","path":"/server/nodejs/","title":"NodeJS Server Setup","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661646728000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"server/nodejs/README.md"}');export{e as data};
