@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-163f9d2f","path":"/php/laravel/vue/","title":"Vue.js integration","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661646171000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"php/laravel/vue/README.md"}');export{e as data};

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-02d7ddda","path":"/server/ssh/","title":"SSH","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Create keys","slug":"create-keys","children":[]}],"git":{"updatedTime":1661645844000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"server/ssh/README.md"}');export{e as data};

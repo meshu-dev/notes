@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-744b4c30","path":"/php/","title":"PHP","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"MacOS Install","slug":"macos-install","children":[]}],"git":{"updatedTime":1661646171000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"php/README.md"}');export{e as data};

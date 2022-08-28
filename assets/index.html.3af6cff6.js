@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-18819b43","path":"/misc/deno/","title":"Deno","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Resources","slug":"resources","children":[]}],"git":{"updatedTime":1661646171000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"misc/deno/README.md"}');export{e as data};

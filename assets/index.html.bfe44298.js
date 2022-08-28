@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-40393438","path":"/php/laravel/migrations/","title":"Migrations","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661645844000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"php/laravel/migrations/README.md"}');export{a as data};

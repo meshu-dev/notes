@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6b02d137","path":"/misc/microservices/","title":"Microservices","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661646171000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"misc/microservices/README.md"}');export{e as data};

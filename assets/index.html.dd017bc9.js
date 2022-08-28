@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-b9b02c70","path":"/server/nginx/","title":"Nginx","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661645844000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"server/nginx/README.md"}');export{e as data};

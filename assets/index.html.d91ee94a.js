@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2a1bf325","path":"/misc/tdd/","title":"Test Driven Development","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661646171000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"misc/tdd/README.md"}');export{e as data};

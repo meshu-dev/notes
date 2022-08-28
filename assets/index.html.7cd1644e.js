@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0d67cb9a","path":"/misc/alphinejs/","title":"Alphine.js","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661646171000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"misc/alphinejs/README.md"}');export{e as data};
