@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-190846e5","path":"/misc/mvvm/","title":"MVVM","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661645844000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"misc/mvvm/README.md"}');export{e as data};

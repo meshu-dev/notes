@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-2b4a19b0","path":"/misc/api-gateway/","title":"API Gateway","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661645844000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"misc/api-gateway/README.md"}');export{a as data};

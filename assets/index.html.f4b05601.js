@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6fd8474d","path":"/php/laravel/factories/","title":"Factories","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661645844000,"contributors":[{"name":"Mesh","email":"harmeshuppal@gmail.com","commits":1}]},"filePathRelative":"php/laravel/factories/README.md"}');export{e as data};
