@@ -11,6 +11,5 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: cp -r ./.vuepress/dist ./docs
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: docs
+      - run: git add -A
+      - run: git commit -m '[github-action] Commit build files'
